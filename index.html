@@ -86,15 +86,12 @@
 
 
 
-<meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="hooy-blogs">
 <meta property="og:url" content="http://melunar.github.io/index.html">
 <meta property="og:site_name" content="hooy-blogs">
-<meta property="og:description">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hooy-blogs">
-<meta name="twitter:description">
 
 
 
@@ -433,8 +430,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/09/03/promote-code-ability/" itemprop="url">
-                  提升编程水平
+                <a class="post-title-link" href="/2018/03/30/http-payload-form-data/" itemprop="url">
+                  HTTP POST请求Request Payload和Form Data主体类型的区别
                 </a>
               
             
@@ -447,8 +444,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-09-03T22:51:20+08:00" content="2017-09-03">
-              2017-09-03
+            <time itemprop="dateCreated" datetime="2018-03-30T13:38:05+08:00" content="2018-03-30">
+              2018-03-30
             </time>
           </span>
 
@@ -462,7 +459,7 @@
 
           
           
-             <span id="/2017/09/03/promote-code-ability/" class="leancloud_visitors" data-flag-title="提升编程水平">
+             <span id="/2018/03/30/http-payload-form-data/" class="leancloud_visitors" data-flag-title="HTTP POST请求Request Payload和Form Data主体类型的区别">
                &nbsp; &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -486,25 +483,14 @@
       
         
           
-          
-编程水平的概念有点大，我们这里暂且不准确地约定编程水平是指代码正确性，代码的逻辑性以及代码可读性三个方面。根据多年的编程经验，总结一下提高编程水平的几个建议，偏颇之处，还请高手们评论中指正。
-
-内容概要
-
-提高代码的正确性
-
-提高代码的逻辑性
-
-提高代码的可读性
-
-
-一、提高代码的正确性所谓代码的正确性是指程序在运行过程中，代码层面运行正常。也就是我们常说的代码健壮（代码健壮其实还包含业务层面）。
-关于编程手册通常，代码正确性反映工程师对一门语言的掌握程度，是一个日积月累的过程。这里建议多看编程手册，手册一般是一门语言最权威的教程，应当形成一种这样的习惯：
-遇到问题，首先看手册；通过搜索、浏
+          看请求报文伪代码示例: 
+123GET:Content-Type: application/json;charset=UTF-8query string parameters: a=1&amp;id=4120f5cb-3133-45f6-861e-91a6fb76d36b
+123POST:(非request body类型)Content-Type:application/x-www-form-urlencodedForm Data: loginName=hooy&amp;password=MTIzNDU2&amp;name=23&amp;gender=0
+1234POST:(request b
           ...
 
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/09/03/promote-code-ability/#more" rel="contents">
+            <a class="btn" href="/2018/03/30/http-payload-form-data/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -555,8 +541,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/08/06/hello-world/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2018/03/30/promote-code-ability/" itemprop="url">
+                  提升编程水平
                 </a>
               
             
@@ -569,8 +555,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-06T21:37:42+08:00" content="2016-08-06">
-              2016-08-06
+            <time itemprop="dateCreated" datetime="2018-03-30T13:36:10+08:00" content="2018-03-30">
+              2018-03-30
             </time>
           </span>
 
@@ -584,7 +570,129 @@
 
           
           
-             <span id="/2016/08/06/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/2018/03/30/promote-code-ability/" class="leancloud_visitors" data-flag-title="提升编程水平">
+               &nbsp; &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          
+编程水平的概念有点大，我们这里暂且不准确地约定编程水平是指代码正确性，代码的逻辑性以及代码可读性三个方面。根据多年的编程经验，总结一下提高编程水平的几个建议，偏颇之处，还请高手们评论中指正。
+
+内容概要
+
+提高代码的正确性
+
+提高代码的逻辑性
+
+提高代码的可读性
+
+
+一、提高代码的正确性所谓代码的正确性是指程序在运行过程中，代码层面运行正常。也就是我们常说的代码健壮（代码健壮其实还包含业务层面）。
+关于编程手册通常，代码正确性反映工程师对一门语言的掌握程度，是一个日积月累的过程。这里建议多看编程手册，手册一般是一门语言最权威的教程，应当形成一种这样的习惯：
+遇到问题，首先看手册；通过搜索、浏
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2018/03/30/promote-code-ability/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/03/06/hello-world/" itemprop="url">
+                  Hello World
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-03-06T09:25:24+08:00" content="2017-03-06">
+              2017-03-06
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/03/06/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
                &nbsp; &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -616,7 +724,7 @@ More in
           ...
 
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/06/hello-world/#more" rel="contents">
+            <a class="btn" href="/2017/03/06/hello-world/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -688,7 +796,7 @@ More in
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -698,7 +806,7 @@ More in
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -780,7 +888,7 @@ More in
         <div class="copyright" >
   
   &copy; 
-  <span itemprop="copyrightYear">2017</span>
+  <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
