@@ -1,0 +1,64 @@
+{
+    "data": {
+        "config": {
+            "id": 543234523,
+            "pageName": "页面名称（接口）",
+            "pageTitle": "页面标题（接口）",
+            "pageBgColor": "#eee",
+            "pageBgColorDefault": "#fff",
+            "pageHeaderBgColor": "#aaa",
+            "pageHeaderBgColorDefault": "#fff",
+            "pageHeaderColor": 2,
+            "marginValue": 5
+        },
+        "metas": [{
+            "metaId": 343434511111,
+            "sort": 1,
+            "type": "002",
+            "text": "轮播图",
+            "name": "carousel",
+            "config": {
+                "btnShape": 3,
+                "btnPosition": 2,
+                "btnColor": "#fff",
+                "btnMarginLR": 5,
+                "btnMarginBottom": 5,
+                "btnTransparency": 0.8
+            }
+        },{
+            "metaId": 343434432222,
+            "sort": 2,
+            "type": "002",
+            "text": "轮播图",
+            "name": "carousel",
+            "config": {
+                "btnShape": 1,
+                "btnPosition": 1,
+                "btnColor": "#f44",
+                "btnMarginLR": 10,
+                "btnMarginBottom": 5,
+                "btnTransparency": 0.4
+            }
+        },{
+            "metaId": 36434344322345,
+            "sort": 3,
+            "type": "003",
+            "text": "自定义菜单",
+            "name": "bottomMenu",
+            "config": {
+                "menuType": 1,
+                "bgColor": "#400",
+                "activeBgColor": "#400",
+                "lineColor": "#f44", 
+                "fontColor": "#444", 
+                "activeFontColor": "#f44",
+                "menuList": [
+                    {"text": "消息", "imgSrc": "", "linkUrl": "#"},
+                    {"text": "联系人", "imgSrc": "", "linkUrl": "#"},
+                    {"text": "个人中心", "imgSrc": "", "linkUrl": "#"},
+                    {"text": "个人中心", "imgSrc": "", "linkUrl": "#"}
+                ]
+            }
+        }]
+    }
+}
